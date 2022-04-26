@@ -86,7 +86,7 @@
       margin-top: 20px;
   }
   .map {
-      width:400px;
+      min-width:300px;
   }
 }
 @media only screen and (min-width: 900px) {

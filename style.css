@@ -79,6 +79,9 @@
         width: 100%;
         display: inline-block;
     }
+    .mobileDiv {
+        width: 100%;
+    }
   body {
         text-align: center;
     }
@@ -86,7 +89,7 @@
       margin-top: 20px;
   }
   .map {
-      width:100%;
+      width: 100%;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -97,7 +100,7 @@
       display: none;
   }
   .map {
-      max-width: 700px;
+      max-width: 500px;
   }
 }
 

@@ -38,7 +38,7 @@
     a.menuelement {
         text-decoration: none;
         margin-top: 5px;
-        font-size: 15px;
+        font-size: 20px;
         margin-right: 12px;
         color: black;
         display: inline-block;
@@ -114,6 +114,7 @@
   #mobileMenu{
         width: 100%;
         display: none;
+        font-size: ;
         
     }
     #mobileMenu.menuelement {

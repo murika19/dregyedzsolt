@@ -20,7 +20,7 @@
             <b>Cím: 8000 Székesfehérvár Malom utca 1 | Telefonszám: 0622-200-115 | E-mail: vh0180@mbvk.hu</b>
         </div>
         <div id="menu">
-            <a class="menuelement" href="vegrehajto.html"><i class="fa-solid fa-scale-balanced"></i> Általános
+            <a class="menuelement" href="index.html"><i class="fa-solid fa-scale-balanced"></i> Általános
                 tájékoztatás</a>
             <a class="menuelement" href="gyik.html"><i class="fa-solid fa-circle-question"></i> Gyakran Ismételt
                 Kérdések</a>
@@ -31,7 +31,7 @@
         </div>
         <i class="fa-solid fa-bars mobileMenu" onclick="menuFunction()"></i>
         <div id="mobileMenu">
-            <a class="menuelement" href="vegrehajto.html"><i class="fa-solid fa-scale-balanced"></i> Általános
+            <a class="menuelement" href="index.html"><i class="fa-solid fa-scale-balanced"></i> Általános
                 tájékoztatás</a> <br>
             <a class="menuelement" href="gyik.html"><i class="fa-solid fa-circle-question"></i> Gyakran Ismételt
                 Kérdések</a> <br>
@@ -40,7 +40,9 @@
             <a class="menuelement" href="hasznos_informaciok.html"><i class="fa-solid fa-circle-info"></i> Hasznos
                 információk</a> <br>
         </div>
-        <div id="wrapper"></div>
+        <div id="wrapper">
+            <div id="cimer"></div>
+        </div>
     </header>
 
     <div class="row content">
@@ -113,10 +115,15 @@
         <div class="col-1"></div>
     </div>
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.9148933819497!2d18.405730963299206!3d47.19867829366609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769f7b4ba033f35%3A0x5515630efe2ebd06!2zU3rDqWtlc2ZlaMOpcnbDoXIsIE1hbG9tIHUuIDEsIDgwMDA!5e0!3m2!1shu!2shu!4v1650022647260!5m2!1shu!2shu"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <div class="mapContainer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.9148933819497!2d18.405730963299206!3d47.19867829366609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769f7b4ba033f35%3A0x5515630efe2ebd06!2zU3rDqWtlc2ZlaMOpcnbDoXIsIE1hbG9tIHUuIDEsIDgwMDA!5e0!3m2!1shu!2shu!4v1650022647260!5m2!1shu!2shu"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+
+ 
+
 </body>
 <script src="script.js"></script>
 

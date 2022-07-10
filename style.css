@@ -21,6 +21,19 @@
         width: 100%;
         text-align: center;
     }
+    #cimer {
+        background-image: url(Címer.jpg);
+        height: 400px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 400px;
+        text-align: center;
+        z-index: 999;
+        opacity: 60%;
+        position: relative;
+        left: 82%
+    }
 
     a.menuelement {
         text-decoration: none;

@@ -76,6 +76,19 @@
     }
  
     @media only screen and (max-width: 900px) {
+        #cimer {
+            background-image: url(Címer.jpg);
+            height: 400px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size:contain;
+            width: 400px;
+            text-align: center;
+            z-index: 999;
+            opacity: 60%;
+            position: relative;
+            left: 40%;
+        }
   #menu {
     display: none;
   }
@@ -88,11 +101,6 @@
   #mobileMenu{
         width: 100%;
         display: none;
-        background-image: url(Címer.jpg);
-      height: 400px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size:contain;
     }
     #mobileMenu.menuelement {
         width: 100%;

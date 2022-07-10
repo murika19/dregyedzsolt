@@ -31,7 +31,7 @@
         text-align: center;
         z-index: 999;
         opacity: 60%;
-        position: relative;
+        position:absolute;
         right: 0%
     }
 
@@ -82,12 +82,12 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size:contain;
-            width: 400px;
+            width: 60%;
             text-align: center;
             z-index: 999;
             opacity: 60%;
-            position: relative;
-            left: 40%;
+            position:absolute;
+            left: 20%
         }
   #menu {
     display: none;
@@ -96,11 +96,11 @@
       display: block;
       font-size: 30px;
       position: left 0;
-      
   }
   #mobileMenu{
         width: 100%;
         display: none;
+        
     }
     #mobileMenu.menuelement {
         width: 100%;
@@ -128,7 +128,8 @@
       display: none;
   }
   .map {
-      max-width: 500px;
+      max-width: 900px;
+      height:500px;
   }
 }
 
@@ -156,4 +157,15 @@
 }
 #kerdesek {
     margin-left: 3%;
+}
+.mapContainer {
+    text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+    .map {
+        width: 1200px;
+    }
+}
+.collapse {
+    text-align: justify;
 }

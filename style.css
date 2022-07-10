@@ -74,7 +74,21 @@
         margin-left: 1%;
         margin-bottom: 3%;
     }
- 
+    @media only screen and (max-width: 400px) {
+        #cimer {
+            background-image: url(Címer.jpg);
+            height: 400px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size:contain;
+            width: 100%;
+            text-align: center;
+            z-index: 999;
+            opacity: 60%;
+            position:absolute;
+            
+        }
+    }
     @media only screen and (max-width: 900px) {
         #cimer {
             background-image: url(Címer.jpg);
@@ -82,12 +96,12 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size:contain;
-            width: 60%;
+            width: 70%;
             text-align: center;
             z-index: 999;
             opacity: 60%;
             position:absolute;
-            left: 20%
+            left: 15%
         }
   #menu {
     display: none;

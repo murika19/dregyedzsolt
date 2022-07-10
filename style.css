@@ -123,6 +123,7 @@
     .mobileDiv {
         width: 95%;
         margin:2%;
+        text-align: left;
     }
   body {
         text-align: center;
